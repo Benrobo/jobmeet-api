@@ -42,7 +42,6 @@ const nodeEnv = process.env.NODE_ENV
 const PORT = typeof nodeEnv === "undefined" || nodeEnv === "development" ? 5000 : process.env.PORT
 
 app.listen(PORT, async ()=>{
-    await connectMongo()
-    console.log(`DB Connected`)
+    await connectMongo() && console.log(`DB Connected`)
     console.log(`server started @ http://localhost:${PORT}`)
 })

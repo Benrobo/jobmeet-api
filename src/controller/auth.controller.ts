@@ -66,7 +66,8 @@ class AuthController {
                 return sendResponse(res, 400, false, "password given is incorrect");
 
         } catch (e: any) {
-            sendResponse(res, 500, false, "something went wrong logging in", {
+            console.log(e)
+            return sendResponse(res, 500, false, "something went wrong logging in", {
                 error: e.message,
             });
         }
@@ -95,6 +96,7 @@ class AuthController {
                 accessToken,
             });
         } catch (e: any) {
+            console.log(e)
             sendResponse(res, 500, false, "something went wrong logging in", {
                 error: e.message,
             });
