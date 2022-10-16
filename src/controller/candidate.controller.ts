@@ -193,7 +193,7 @@ class CandidateController{
             if(isAuthorised.length === 0) return sendResponse(res, 401, false, "not authorised to update candidate status.")
 
             // update candidate status 
-            await Candidate.findOneAndUpdate({userId},{
+            await Candidate.findOneAndUpdate({id: candidateId},{
                 id: candidateId,
                 careerId,
                 status
