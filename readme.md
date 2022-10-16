@@ -30,11 +30,11 @@ JobMeet is just a web application that chooses to fufill the above requirements 
 
 Those are the above feature `JobMeet` aims to solve.
 
-## Challenges I ran Into.
+## Challenges we ran Into.
 Some of the challenges I ran into while developing this application from ground up were : 
 `(1)` Setting up `Agora SDK`. Having trying different approach to solve the issue of users webcam not showing, I then figured out that the problem wasn't from Agora SDK but rather, my PC webcam. This made me postponed implementation of video conferencing within the app. Also made me use some other third party video / audio calling tool called `JitSi SDK`
 
-## Archivement I'm Proud Of?
+## Archivement we are Proud Of?
 Despite facing different problems during development of this application, am really glad I get to work with some technologies I havent worked before with. This provide room for learning while building. technologies like `JitSi SDK`, `MongoDB (NoSQLL database)`, `Typescript`.
 
 ## Plans for JobMeet
