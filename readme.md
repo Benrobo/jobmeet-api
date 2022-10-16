@@ -56,6 +56,9 @@ Below are the techologies used in developing this application.
 ![img](https://raw.githubusercontent.com/Benrobo/jobmeet/main/githubImg/jobmeet%205.png)
 ![img](https://raw.githubusercontent.com/Benrobo/jobmeet/main/githubImg/jobmeet%206.png)
 ![img](https://raw.githubusercontent.com/Benrobo/jobmeet/main/githubImg/jobmeet%207.png)
+![img](https://raw.githubusercontent.com/Benrobo/jobmeet/main/githubImg/jobmeet%208.png)
+![img](https://raw.githubusercontent.com/Benrobo/jobmeet/main/githubImg/jobmeet%209.png)
+![img](https://raw.githubusercontent.com/Benrobo/jobmeet/main/githubImg/jobmeet%2010.png)
 
 ## Setting up JobMeet
 JobMeet can be run locally along with the [Backend API](https://github.com/Benrobo/jobmeet-api).
