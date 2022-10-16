@@ -35,17 +35,17 @@ Some of the challenges I ran into while developing this application from ground 
 `(1)` Setting up `Agora SDK`. Having trying different approach to solve the issue of users webcam not showing, I then figured out that the problem wasn't from Agora SDK but rather, my PC webcam. This made me postponed implementation of video conferencing within the app. Also made me use some other third party video / audio calling tool called `JitSi SDK`
 
 ## Archivement we are Proud Of?
-Despite facing different problems during development of this application, am really glad I get to work with some technologies I havent worked before with. This provide room for learning while building. technologies like `JitSi SDK`, `MongoDB (NoSQLL database)`, `Typescript`.
+Despite facing different problems during development of this application, am really glad that we get to work with some technologies we haven't worked with before. This provide room for learning while building. technologies like `JitSi SDK`, `MongoDB (NoSQLL database)`, `Typescript`.
 
 ## Plans for JobMeet
-JobMeet is at his early `MVP` stage. with adequate time and resources, I plan to improve this application by ading other complex feature within the app which could drive users engagement from both the `hiring manager` & `talents`
+JobMeet is at his early `MVP` stage. with adequate time and resources, we plan to improve this application by ading other complex feature within the app which could drive users engagement from both the `hiring manager` & `candidates` seeking for jobs in order to make the hiring process much more easier.
 
 ## Technologies Used.
 Below are the techologies used in developing this application.
 
 - [x] Typescript ( `Backend` & `Frontend` ).
 - [x] React + Typescript  + Vite.
-- [x] MongoDB ( `NoSQL` & `SQL` ) database.
+- [x] MongoDB ( `NoSQL` ) database.
 - [x] JitSi SDK (A `video / audio / chat` conferencing platform)
 
 ## Images of JobMeet
