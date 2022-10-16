@@ -64,7 +64,7 @@ Below are the techologies used in developing this application.
 - [Elijah Daniel](https://github.com/Elijahdanie)
 - Esther Adeyemi
 - [Benaiah Alumona](https://github.com/benrobo)
-- [Prince Code](https://github.com/pricecodes247)
+- [Prince Code](https://github.com/princecodes247)
 
 ## Setting up JobMeet
 JobMeet can be run locally along with the [Backend API](https://github.com/Benrobo/jobmeet-api).
