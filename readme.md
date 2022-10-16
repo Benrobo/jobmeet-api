@@ -10,7 +10,7 @@ Ease Job Application Process for both `Hiring Manager` & `Candidates`
 
 </br>
 
-![img](https://raw.githubusercontent.com/Benrobo/meetvast/master/githubImg/1.png)
+![img](https://raw.githubusercontent.com/Benrobo/jobmeet/main/githubImg/JobMeet.png)
 
 We know how tedious it is for both `Hiring Manager` to seek for talent and `Talent` to apply for jobs online. Often, `Hiring Manager` goes a long way in creating a LinkedIn job posts from a third party website about a job opening, collect users signup from a different web application.
 
@@ -49,30 +49,16 @@ Below are the techologies used in developing this application.
 - [x] JitSi SDK (A `video / audio / chat` conferencing platform)
 
 ## Images of JobMeet
-![img](https://raw.githubusercontent.com/Benrobo/meetvast/master/githubImg/2.png)
 
-![img](https://raw.githubusercontent.com/Benrobo/meetvast/master/githubImg/3.png)
-
-![img](https://raw.githubusercontent.com/Benrobo/meetvast/master/githubImg/5.PNG)
-
-![img](https://raw.githubusercontent.com/Benrobo/meetvast/master/githubImg/7.png)
-
-![img](https://raw.githubusercontent.com/Benrobo/meetvast/master/githubImg/8.png)
-
-![img](https://raw.githubusercontent.com/Benrobo/meetvast/master/githubImg/14.png)
-
-
-![img](https://raw.githubusercontent.com/Benrobo/meetvast/master/githubImg/18.png)
-
-![img](https://raw.githubusercontent.com/Benrobo/meetvast/master/githubImg/17.png)
-
-![img](https://raw.githubusercontent.com/Benrobo/meetvast/master/githubImg/mail.PNG)
+![img](https://raw.githubusercontent.com/Benrobo/jobmeet/main/githubImg/JobMeet.png)
+![img](https://raw.githubusercontent.com/Benrobo/jobmeet/main/githubImg/jobmeet%202.png)
+![img](https://raw.githubusercontent.com/Benrobo/jobmeet/main/githubImg/jobmeet%204.png)
+![img](https://raw.githubusercontent.com/Benrobo/jobmeet/main/githubImg/jobmeet%205.png)
+![img](https://raw.githubusercontent.com/Benrobo/jobmeet/main/githubImg/jobmeet%206.png)
+![img](https://raw.githubusercontent.com/Benrobo/jobmeet/main/githubImg/jobmeet%207.png)
 
 ## Setting up JobMeet
 JobMeet can be run locally along with the [Backend API](https://github.com/Benrobo/jobmeet-api).
-
-> JobMeet API depends on HarperDB instance. [Follow this guide](https://blog.francescociulla.com/crud-rest-api-using-nodejs-express-harperdb-docker) on setting yours up.
-
 
 ## Update Database config in .env file.
 Replace the below data with your own harperdb instance.
