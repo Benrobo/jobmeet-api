@@ -60,6 +60,12 @@ Below are the techologies used in developing this application.
 ![img](https://raw.githubusercontent.com/Benrobo/jobmeet/main/githubImg/jobmeet%209.png)
 ![img](https://raw.githubusercontent.com/Benrobo/jobmeet/main/githubImg/jobmeet%2010.png)
 
+## Contributors
+- [Elijah Daniel](https://github.com/Elijahdanie)
+- Esther Adeyemi
+- [Benaiah Alumona](https://github.com/benrobo)
+- [Prince Code](https://github.com/pricecodes247)
+
 ## Setting up JobMeet
 JobMeet can be run locally along with the [Backend API](https://github.com/Benrobo/jobmeet-api).
 
