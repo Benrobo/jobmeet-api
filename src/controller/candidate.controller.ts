@@ -120,7 +120,7 @@ class CandidateController{
 
         try {
             // const query = ` SELECT * FROM ${SCHEMA}.${TABLE} WHERE careerId="${ID}" `
-            const result = await Candidate.findOne({careerId: ID});
+            const result = await Candidate.find({careerId: ID});
             sendResponse(res, 200, true, "career candidates fetched successfully.", result!)
         } catch (e: any) {
             sendResponse(res, 200, false, "something went wrong. "+e.message)

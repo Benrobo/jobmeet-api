@@ -213,17 +213,19 @@ class CareerController {
             let query;
             // query = ` SELECT * FROM ${SCHEMA}.users WHERE id='${id}'`;
             const isAuthorExists : any = await User.find({id});
+
+            // console.log(isAuthorExists)
             
             if(isAuthorExists.length === 0) return sendResponse(res, 404, false, "unauthorised to delete career page.")
             
-            if(isAuthorExists[0].role !== 2) return sendResponse(res, 403, false, "Not permitted to delete career page.")
+            if(+isAuthorExists[0].role !== 2) return sendResponse(res, 403, false, "Not permitted to delete career page.")
 
             // check if career pageid exists
             // query = ` SELECT * FROM ${SCHEMA}.${TABLE} WHERE id='${careerId}'`;
             const careerExists = await Career.find({id: careerId});
             if(careerExists.length === 0) return sendResponse(res, 404, false, "failed: career page not found.")
 
-
+                        
             // check if author is permitted to delete a post
             // query = `SELECT * FROM ${SCHEMA}.${TABLE} WHERE id='${careerId}'`;
             const hasPermission = careerExists;
